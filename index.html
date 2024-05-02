@@ -45,101 +45,150 @@
     </header>
     <main class="container">
       <h1 class="mb-3">会計ラボ coco</h1>
-      <section class="card shadow mb-3">
+      <article class="card shadow mb-3">
         <div class="card-body">
-          <h2 class="border-bottom">
+          <h2 class="border-bottom mb-3">
             <i class="bi bi-people"></i>
             顧客管理
           </h2>
-          <h5><b>顧客一覧</b></h5>
-          <p>
-            <div>作成済みの顧客情報が一覧で表示されます。各顧客の編集、削除が可能です。</div>
-          </p>
-          <h5><b>顧客作成</b></h5>
-          <p>
-            <div>顧客情報を新規作成できます。ここで作成した顧客情報は取引作成時に呼び出し該当の顧客に対する取引を作成できます。</div>
-          </p>
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseOne">
-                  顧客詳細項目
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">会社名</li>
-                    <li class="list-group-item">顧客タイプ(受注先/発注先/両方)</li>
-                    <li class="list-group-item">郵便番号</li>
-                    <li class="list-group-item">住所</li>
-                    <li class="list-group-item">電話番号</li>
-                    <li class="list-group-item">ファックス番号</li>
-                    <li class="list-group-item">ウェブサイトURL</li>
-                    <li class="list-group-item">担当者名</li>
-                    <li class="list-group-item">メールアドレス</li>
-                    <li class="list-group-item">メモ</li>
-                  </ul>
+          <section class="mb-5">
+            <h4><b>顧客一覧</b></h4>
+            <p>
+              <div>作成済みの顧客情報が一覧で表示されます。各顧客の編集、削除が可能です。</div>
+            </p>
+            <img class="img-fluid" src="./images/customers.png" alt="顧客一覧" />
+          </section>
+          <section class="mb-5">
+            <h4><b>顧客作成</b></h4>
+            <p>
+              <div>顧客情報を新規作成できます。ここで作成した顧客情報は取引作成時に呼び出し該当の顧客に対する取引を作成できます。</div>
+            </p>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne">
+                    顧客詳細項目
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">会社名</li>
+                      <li class="list-group-item">顧客タイプ(受注先/発注先/両方)</li>
+                      <li class="list-group-item">郵便番号</li>
+                      <li class="list-group-item">住所</li>
+                      <li class="list-group-item">電話番号</li>
+                      <li class="list-group-item">ファックス番号</li>
+                      <li class="list-group-item">ウェブサイトURL</li>
+                      <li class="list-group-item">担当者名</li>
+                      <li class="list-group-item">メールアドレス</li>
+                      <li class="list-group-item">メモ</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
+            <img class="img-fluid" src="./images/customer.png" alt="顧客作成" />
+          </section>
         </div>
-      </section>
-      <section class="card shadow mb-3">
+      </article>
+      <article class="card shadow mb-3">
         <div class="card-body">
-          <h2 class="border-bottom">
+          <h2 class="border-bottom mb-3">
             <i class="bi bi-box-arrow-in-left"></i>
             受注取引管理
           </h2>
-          <h5><b>受注取引一覧</b></h5>
-          <p>
-            <div>作成済みの受注取引が一覧で表示されます。各取引の編集、削除が可能です。</div>
-            <div>入金方法とステータスで各取引をソートできます。先方からの支払い状況の管理としてお使いいただけます。</div>
-            <div>各取引における請求書を作成できます。</div>
-          </p>
-          <h5><b>受注取引作成</b></h5>
-          <p>
-            <div>受注取引を新規作成できます。作成済みの顧客を取引先として選択できます。</div>
-          </p>
-          <h5><b>受注取引請求書作成</b></h5>
-          <p>
-            <div>受注取引に対して請求書を作成できます。作成した請求書はPDF形式でダウンロードできます。</div>
-          </p>
+          <section class="mb-5">
+            <h4><b>受注取引一覧</b></h4>
+            <p>
+              <div>作成済みの受注取引が一覧で表示されます。各取引の編集、削除が可能です。</div>
+              <div>入金方法とステータスで各取引をソートできます。先方からの支払い状況の管理としてお使いいただけます。</div>
+              <div>各取引における請求書を作成できます。</div>
+            </p>
+            <img class="img-fluid" src="./images/sales_orders.png" alt="受注取引一覧" />
+          </section>
+          <section class="mb-5">
+            <h4><b>受注取引作成</b></h4>
+            <p>
+              <div>受注取引を新規作成できます。作成済みの顧客を取引先として選択できます。</div>
+            </p>
+            <img class="img-fluid" src="./images/sales_order.png" alt="受注取引作成" />
+          </section>
+          <section class="mb-5">
+            <h4><b>受注取引請求書作成</b></h4>
+            <p>
+              <div>受注取引に対して請求書を作成できます。作成した請求書はPDF形式で出力できます。</div>
+            </p>
+            <img class="img-fluid" src="./images/invoice.png" alt="受注取引請求書作成" />
+          </section>
         </div>
-      </section>
-      <section class="card shadow mb-3">
+      </article>
+      <article class="card shadow mb-3">
         <div class="card-body">
-          <h2 class="border-bottom">
+          <h2 class="border-bottom mb-3">
             <i class="bi bi-box-arrow-right"></i>
             発注取引管理
           </h2>
-          <h5><b>発注取引一覧</b></h5>
-          <p>
-            <div>作成済みの発注取引が一覧で表示されます。各取引の編集、削除が可能です。</div>
-            <div>入金方法とステータスで各取引をソートできます。先方への支払い状況の管理としてお使いいただけます。</div>
-            <div>アップロード済みの書類をプレビューできます。</div>
-          </p>
-          <h5><b>発注取引作成</b></h5>
-          <p>
-            <div>発注取引を新規作成できます。作成済みの顧客を取引先として選択できます。</div>
-            <div>請求書、見積書、領収書、契約書をアップロードできます。</div>
-          </p>
+          <section class="mb-5">
+            <h4><b>発注取引一覧</b></h4>
+            <p>
+              <div>作成済みの発注取引が一覧で表示されます。各取引の編集、削除が可能です。</div>
+              <div>入金方法とステータスで各取引をソートできます。先方への支払い状況の管理としてお使いいただけます。</div>
+              <div>アップロード済みの書類をプレビューできます。</div>
+            </p>
+            <img class="img-fluid" src="./images/purchase_orders.png" alt="発注取引一覧" />
+          </section>
+          <section class="mb-5">
+            <h4><b>発注取引作成</b></h4>
+            <p>
+              <div>発注取引を新規作成できます。作成済みの顧客を取引先として選択できます。</div>
+              <div>請求書、見積書、領収書、契約書をアップロードできます。</div>
+            </p>
+            <img class="img-fluid" src="./images/purchase_order.png" alt="発注取引作成" />
+          </section>
         </div>
-      </section>
-      <section class="card shadow mb-3">
+      </article>
+      <article class="card shadow mb-3">
         <div class="card-body">
-          <h2 class="border-bottom">
+          <h2 class="border-bottom mb-3">
             <i class="bi bi-files"></i>
             会計帳簿
           </h2>
-          <p>この機能は会計帳簿を作成できます。</p>
+          <section class="mb-5">
+            <h4><b>総勘定元帳</b></h4>
+            <p>
+              <div>総勘定元帳を作成できます。CSV形式で出力できます。</div>
+              <div>自動計算機能等は実装されていません。進行期の数字の記録補助としてお使いいただけます。</div>
+            </p>
+            <img class="img-fluid" src="./images/general_ledger.png" alt="総勘定元帳" />
+          </section>
+          <section class="mb-5">
+            <h4><b>貸借対照表</b></h4>
+            <p>
+              <div>貸借対照表を作成できます。CSV形式で出力できます。</div>
+            </p>
+            <img class="img-fluid" src="./images/balance_sheet.png" alt="貸借対照表" />
+          </section>
+          <section class="mb-5">
+            <h4><b>損益計算書</b></h4>
+            <p>
+              <div>損益計算書を作成できます。CSV形式で出力できます。</div>
+            </p>
+            <img class="img-fluid" src="./images/profit_and_loss_statement.png" alt="損益計算書" />
+          </section>
+          <section class="mb-5">
+            <h4><b>キャッシュフロー計算書</b></h4>
+            <p>
+              <div>キャッシュフロー計算書を作成できます。CSV形式で出力できます。</div>
+            </p>
+            <img class="img-fluid" src="./images/cash_flow_statement.png" alt="キャッシュフロー計算書" />
+          </section>
         </div>
-      </section>
+      </article>
     </main>
   </body>
 </html>
